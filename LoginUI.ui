@@ -84,6 +84,9 @@ border-bottom-right-radius: 50px;</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEdit">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>295</x>
@@ -163,9 +166,8 @@ padding-bottom:7px;</string>
 }
 
 QPushButton#pushButton:hover{
-	background-color: qlineargradient(spread:pad,x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgba(150,123,111,219), stop:1 rgba(85,81,84,226));
+	background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.989, y2:0, stop:0.420455 rgba(4, 38, 41, 255), stop:0.715909 rgba(65, 12, 84, 255));
 }
-
 QPushButton#pushButton:pressed{
 	padding-left:5px;
 	padding-top:5px;

@@ -49,7 +49,8 @@ border-top-left-radius: 50px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:rgba(0,0,0,80);
+     <string notr="true">border-image:url(:/image/reg);
+background-color:rgba(0,0,0,80);
 border-top-left-radius: 50px;</string>
     </property>
     <property name="text">
@@ -363,16 +364,16 @@ padding-bottom:7px;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image:url(:/image/pexels-photo-1624438.jpeg);
+     <string notr="true">background-color:rgba(255,255,255,15);
 border-top-left-radius: 50px;</string>
     </property>
     <property name="text">
      <string/>
     </property>
    </widget>
-   <zorder>label_5</zorder>
    <zorder>label</zorder>
    <zorder>label_2</zorder>
+   <zorder>label_5</zorder>
    <zorder>label_3</zorder>
    <zorder>label_4</zorder>
    <zorder>lineEdit</zorder>
@@ -387,7 +388,7 @@ border-top-left-radius: 50px;</string>
   </widget>
  </widget>
  <resources>
-  <include location="register.qrc"/>
+  <include location="regres.qrc"/>
  </resources>
  <connections/>
 </ui>
